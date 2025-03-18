@@ -1,35 +1,3 @@
-
-
-( (S (NP-SBJ Pacific First Financial Corp.)
-     (VP said
-         (SBAR 0
-               (S (NP-SBJ shareholders)
-                  (VP approved
-                      (NP (NP its acquisition)
-                          (PP by
-			      (NP (NP Royal Trustco Ltd.)
-				  (PP of
-				      (NP Toronto))))
-			  (PP for
-			      (NP (NP (NP $ 27 *U*)
-				      (NP-ADV a share))
-				  , 
-				  or
-				  (NP (QP $ 212 million)
-				      *U*))))))))
-     .))
-( (S (NP-SBJ The thrift holding company)
-     (VP said
-         (SBAR 0
-               (S (NP-SBJ-1 it)
-                  (VP expects
-                      (S (NP-SBJ *-1)
-                         (VP to
-                             (VP (VP obtain
-                                     (NP regulatory approval))
-                                 and
-                                 (VP complete
-                                     (NP the transaction))
-				 (PP-TMP by
-					 (NP year-end)))))))))
-     .))
+version https://git-lfs.github.com/spec/v1
+oid sha256:f81d31c60ef22f450d350d2f6deba577b9082db8e96ad216f27c41c161977e30
+size 960

@@ -1,4 +1,3 @@
-	IS -> IZE_ARR [0.5] | IZE_ARR ADJ [0.3] | IS LOT IS [0.2]
-	IZE_ARR -> 'gizon' [0.1] | 'emakume' [0.2] | 'ume' [0.3] | IZE_ARR LOT IZE_ARR [0.4]
-	ADJ -> 'zaharrak' [0.4] | 'gazteak' [0.6] 
-	LOT -> 'eta' [0.9] | 'edo' [0.1]
+version https://git-lfs.github.com/spec/v1
+oid sha256:449d0e2604b01da5f0e39a116e336b8809fadd3fb2464985c53da8e072c41a20
+size 223

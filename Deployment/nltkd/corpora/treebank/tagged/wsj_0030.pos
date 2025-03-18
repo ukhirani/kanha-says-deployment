@@ -1,16 +1,3 @@
-
-
-
-
-[ James/NNP L./NNP Pate/NNP ]
-,/, 
-[ 54-year-old/JJ executive/NN vice/NN president/NN ]
-,/, was/VBD named/VBN 
-[ a/DT director/NN ]
-of/IN 
-[ this/DT oil/NN concern/NN ]
-,/, expanding/VBG 
-[ the/DT board/NN ]
-to/TO 
-[ 14/CD members/NNS ]
-./. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:00084da8b75d6e2fdb554376afbf0dfef8650a6a498caa4fa93415eef8d2f0ff
+size 246

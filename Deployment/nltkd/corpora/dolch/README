@@ -1,10 +1,3 @@
-Dolch Word List
-
-This corpus contains a list of frequently used English words, grouped
-according to their part of speech.  These are 220 sight words that make
-up most of children's reading materials.
-
-They were taken from:
-
-Dolch, E. W. (1936). A basic sight vocabulary. The Elementary School
-    Journal, 36(6), 456--460.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6435849b24db620de4ae927572e05266f6f5be6b1a9edc1d6edac16149d90f40
+size 323

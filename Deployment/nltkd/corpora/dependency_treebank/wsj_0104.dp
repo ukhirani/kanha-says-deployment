@@ -1,34 +1,3 @@
-Due	JJ	21
-to	TO	1
-an	DT	5
-editing	NN	5
-error	NN	2
-,	,	21
-a	DT	8
-letter	NN	21
-to	TO	8
-the	DT	11
-editor	NN	9
-in	IN	8
-yesterday	NN	14
-'s	POS	15
-edition	NN	12
-from	IN	8
-Frederick	NNP	19
-H.	NNP	19
-Hallett	NNP	16
-mistakenly	RB	21
-identified	VBD	0
-the	DT	23
-NRDC	NNP	21
-.	.	21
-
-It	PRP	2
-should	MD	0
-be	VB	2
-the	DT	8
-Natural	NNP	8
-Resources	NNPS	8
-Defense	NNP	8
-Council	NNP	3
-.	.	2
+version https://git-lfs.github.com/spec/v1
+oid sha256:5752348702cbc2ff9d1e58401b9668c846875a6e51522f933eac1b24d3f749e2
+size 374

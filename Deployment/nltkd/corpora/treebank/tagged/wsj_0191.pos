@@ -1,15 +1,3 @@
-
-
-
-======================================
-
-[ First/NNP Chicago/NNP Corp./NNP ]
-said/VBD 
-[ it/PRP ]
-completed/VBD 
-[ its/PRP$ $/$ 55.1/CD million/CD cash-and-stock/JJ acquisition/NN ]
-of/IN closely/RB held/VBN 
-[ Ravenswood/NNP Financial/NNP Corp./NNP ]
-,/, 
-[ another/DT Chicago/NNP bank/NN holding/VBG company/NN ]
-./. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a5a99a1fb1dcab71265ee9020ab318807cfe9dbab3b352f7e481f1d55198c8f
+size 322

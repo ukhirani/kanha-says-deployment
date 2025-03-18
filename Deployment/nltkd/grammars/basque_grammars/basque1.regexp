@@ -1,1 +1,3 @@
-NP: {<IZE.*>+<ADJ.*>*<DET.*>*} """ # adjetibo edo determinatzaileei loturiko izenak nahiz izen segidak topatzen ditu
+version https://git-lfs.github.com/spec/v1
+oid sha256:1255ffe455d230a18cda7797720c8ee3cc6edb22e6258d9f7ac977e0704b7500
+size 117

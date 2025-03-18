@@ -1,28 +1,3 @@
-
-
-( (NP-HLN (NP INTER-TEL Inc .)
-	  (PRN -LRB-
-	       (NP-LOC Chandler
-		       ,
-		       Ariz.)
-	       -RRB-)
-	  --))
-( (S (NP-SBJ-1 (NP Jerry Chapman)
-               ,
-               (NP (NP managing director)
-                   (PP of
-                       (NP WayMar Associates)))
-               ,)
-     (VP was
-         (VP elected
-             (S (NP-SBJ *-1)
-		(NP-PRD (NP a director)
-			(PP of
-			    (NP this business telecommunications software and systems concern))))))
-     .))
-( (S (NP-SBJ He)
-     (VP increases
-         (NP the board)
-         (PP-CLR to
-		 (NP seven)))
-     .))
+version https://git-lfs.github.com/spec/v1
+oid sha256:16384375c7c6107d77f223d19819994ea086d6f18eeab00804f31730f96f8203
+size 599

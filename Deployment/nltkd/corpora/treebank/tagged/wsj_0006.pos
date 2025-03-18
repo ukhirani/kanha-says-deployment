@@ -1,32 +1,3 @@
-
-
-
-
-[ Pacific/NNP First/NNP Financial/NNP Corp./NNP ]
-said/VBD 
-[ shareholders/NNS ]
-approved/VBD 
-[ its/PRP$ acquisition/NN ]
-by/IN 
-[ Royal/NNP Trustco/NNP Ltd./NNP ]
-of/IN 
-[ Toronto/NNP ]
-for/IN 
-[ $/$ 27/CD ]
-
-[ a/DT share/NN ]
-,/, or/CC 
-[ $/$ 212/CD million/CD ]
-./. 
-
-
-[ The/DT thrift/NN holding/VBG company/NN ]
-said/VBD 
-[ it/PRP ]
-expects/VBZ to/TO obtain/VB 
-[ regulatory/JJ approval/NN ]
-and/CC complete/VB 
-[ the/DT transaction/NN ]
-by/IN 
-[ year-end/NN ]
-./. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2be86e98b2830f9d53407f8701daaaea4545335f5eead748f972d9424cf203b
+size 475

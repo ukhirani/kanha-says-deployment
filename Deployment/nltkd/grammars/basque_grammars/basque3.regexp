@@ -1,3 +1,3 @@
-IS:
-     {<.*>+}           # Edozer Onartzen Duen Chunkerra
-     }<ADI.*|ADL.*|ADT.*|PUNT.*|POST.*|LOT.*|ADB.*>+{      # Chink Bezala Barneratu Aditzak (ADI.*, ADT.* eta ADL.*), Adberbioak (ADB.*), Preposizioak (POST.*), Loturak (LOT.*) Eta Puntuazio Ikurrak (PUNT.*)
+version https://git-lfs.github.com/spec/v1
+oid sha256:14a7ac4111a8234ccf2eadcc76923b721f2e14d81673b4ca0bc7e925c877df59
+size 268

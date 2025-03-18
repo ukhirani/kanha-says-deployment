@@ -1,8 +1,3 @@
-This is the WSJ parsing model for the BLLIP parser. It is trained from
-PTB version 2, sections 2-21 and tuned on section 24.  Unlike the model
-typically distributed with the BLLIP parser, it will not produce any
-non-standard tags (e.g., AUX).
-
--- David McClosky
-   dmcc@cs.stanford.edu
-   1.29.2014
+version https://git-lfs.github.com/spec/v1
+oid sha256:8de6bad2329996d914b63708c9f713e64f9eb3cb81484cc69ffc21ffee5b14b5
+size 299

@@ -1,6 +1,3 @@
-adam sandler isn't known for appearing in deep , thought-provoking films , but he's still a really funny guy . 
-most of his movies are successful not because of the film making behind them , but because they let sandler do what he does best without a stupid plot to drown him out . 
-big daddy is the first film in which the story seems more important than sandler's comic performance , and it's a miserable failure . 
-sandler plays a thirty-something loser who gets attached to an orphaned young boy ( played by cole and dylan sprouse ) . 
-as one might expect from the synopsis , director dennis dugan resorts to the usual bag of manipulative and sentimental sequences , including a repulsive courtroom battle and a lot of teary scenes in which characters say " good-bye " to one another ; in addition , there's a ridiculous amount of disgusting toilet humor ( urine and vomit both get more screen time than sandler himself ) . 
-there's a hilarious running joke featuring a female doctor who previously worked at hooters , and the film features passable performances from sandler , joey lauren adams ( as the love interest ) , and the two young boys , but the film on the whole is trite and disappointingly unfunny . 
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bbb868a3dc15fe81d3966d42cd7128be8f7c48b163748ac53b0d52735769e60
+size 1218

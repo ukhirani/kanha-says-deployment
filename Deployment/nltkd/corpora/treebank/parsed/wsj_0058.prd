@@ -1,35 +1,3 @@
-
-
-( (NP-HLN (NP INGERSOLL-RAND Co .)
-	  (PRN -LRB-
-	       (NP-LOC (NP Woodcliff Lake)
-		       ,
-		       (NP N.J .))
-	       -RRB-)
-	  --))
-( (S (NP-SBJ-2 (NP William G. Kuhns)
-	       ,
-	       (NP former 
-		   (NX (NX (NX chairman)
-			   (PP *RNR*-1))
-		       and
-		       (NX (NX chief executive officer)
-			   (PP *RNR*-1))
-		       (PP-1 of
-			     (NP General Public Utilities Corp.))))
-	       ,)
-     (VP was
-	 (VP elected
-	     (S (NP-SBJ *-2)
-		(NP-PRD (NP a director)
-			(PP of
-			    (NP (NP this maker)
-				(PP of
-				    (NP (UCP industrial and construction) equipment))))))
-	     ,
-	     (S-ADV (NP-SBJ *)
-		    (VP increasing
-			(NP board membership)
-			(PP-DIR to
-				(NP 10))))))
-     .))
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f68ceffc270bd235593dc3078ceb98919f34acac7f61da71f654993ebbb86f3
+size 710
