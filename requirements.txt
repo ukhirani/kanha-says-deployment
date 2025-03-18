@@ -1,6 +1,6 @@
-keras
-nltk
-numpy
-tensorflow-estimator
-tensorflow-io-gcs-filesystem
-pickle
+keras==2.15.0
+nltk==3.7
+numpy==1.26.3
+tensorflow==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.31.0
