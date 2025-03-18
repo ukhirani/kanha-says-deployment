@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/531d004a-b7dc-4428-aa19-a664db190247/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/KanhaSays",
+    "appService.deploySubpath": "."
+}

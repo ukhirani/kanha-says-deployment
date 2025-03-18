@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(230, 230, 230);
+  height: 750px;
+}
+
+#question {
+  width: 400%;
+  margin-top: 3%;
+}
+
+#light {
+  display: none;
+  cursor: pointer;
+  margin-left: 98%;
+  margin-top: 0.6%;
+}
+
+
+#dark {
+  cursor: pointer;
+  margin-left: 98%;
+  margin-top: 0.6%;
+}
+
+.text-center{
+  margin-bottom: 0%;
+}
+
+#footer{
+  margin-bottom: 0%;
+  height: 30px;
+}
+
+#answer {
+  width: 400%;
+  height: 130%;
+  margin-top: 2%;
+  background-color: rgb(212, 212, 212);
+}
+#suggestions{
+  width: 400%;
+  margin-top: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+.btn-primary {
+  margin-top: 2%;
+  width: 400%;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #2e2e2e;
+  border-color: #2e2e2e;
+}
+
+.btn-secondary{
+  background-color: #5f5f5f;
+}
+
+
+.btn-secondary:hover{
+  background-color: #4c4c4c;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.head {
+  position: relative;
+  margin-top: 10%;
+  font-family: "Verdana";
+}
+
+.tagline {
+  position: relative;
+  font-family: "Verdana";
+  margin-top: 1%;
+}
+
+.feather {
+  position: absolute;
+  margin-top: 0%;
+  width: 12%;
+  margin-left: 44%;
+  /* animation: tilt 5s infinite; */
+  /* rotate: 20deg; */
+}
+
+a {
+  font-family: "Verdana";
+  color: rgb(11, 37, 57);
+}
+
+#mice-light,
+#nmice-light {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 62.5%;
+  margin-top: 9%;
+}
+
+@keyframes tilt {
+  40% {
+    transform: rotate(10deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 5px;
+  }
+}

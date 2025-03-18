@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <link rel="icon" type="image/x-icon" href="./Deployment/static/favicon.ico">   -->
+  <link rel="icon" href="../static/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="../static/script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KãnhãSays</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="../static/style.css" rel="stylesheet">
+
+  
+  
+</head>
+<body id="body">
+  <form method="POST" id="ask-form" action="/ask">
+    <div class="light">
+    <svg xmlns="http://www.w3.org/2000/svg" id="light" width="18" height="18" fill="antiquewhite" class="bi bi-brightness-high-fill"  viewBox="0 0 16 16" onclick="lightTheme()">
+      <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+    </svg>
+    </div>
+    <div class="dark">
+      <svg xmlns="http://www.w3.org/2000/svg" id="dark" width="18" height="18" fill="black" class="bi bi-moon" viewBox="0 0 16 16" onclick="darkTheme()" >
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+      </svg>
+    </div>
+    <div>
+      <img src="../static/krishna2.png" alt="Feather" class="feather">
+    </div>
+    <h1 class="text-center head" id="heading">KãnhãSays</h1>
+    <h6 class="text-center tagline" id="tagline">The Divine Wisdom of Shree Krishna - Your Key to Happiness.🦚</h6>
+    <div class="flex-container container">
+        <textarea class="form-control" id="question" name="question" placeholder="My friend Arjuna, you seem troubled. What's the matter?">{{question}}</textarea>
+        <button class="text-center btn btn-primary form-control" type="submit" id="ask">Ask</button>
+        <label id="suggestions">Or, try one of these</label>
+        <div class="w-100 text-nowrap overflow-x-scroll">
+          <div class="btn btn-secondary" id="mod" onclick="modfillQuestionTextarea()">What is Life?</div>
+          <div class="btn btn-secondary" id="htfip" onclick="htfipfillQuestionTextarea()">I am depressed,what should I do?</div>
+          <div class="btn btn-secondary" id="witmol" onclick="witmolfillQuestionTextarea()">What is Dharma?</div>
+          <div class="btn btn-secondary" id="hcibabp" onclick="hcibabpfillQuestionTextarea()">How to attain Moksha?</div>
+          <div class="btn btn-secondary" id="hcibabf" onclick="hcibabffillQuestionTextarea()">How can I be a better friend?</div>
+        </div>
+        <textarea id="answer" class="form-control answer" rows="6" readonly></textarea>
+        <div class="btn btn-secondary" id="translate" >Translate</div> &nbsp;
+        <div class="btn btn-secondary" id="speak">Listen</div> &nbsp;
+        <div class="btn btn-secondary" id="reset" style="display: none;">Back To Orignal</div> &nbsp;
+        <!-- <div class="btn btn-secondary" id="feedback" onclick="window.location.href='/feedback'">Give Feedback</div> -->
+
+    </div>
+    
+  </form>
+  <footer class="fixed-bottom">
+    <div id="footer">
+      <p class="text-center" id="developer">Made with 💙 by <a href="https://www.linkedin.com/in/mayurdhvajsinh-jadeja/" id="d-name">Mayurdhvaj</a></p>
+    </div>
+  </footer> 
+  <script>
+    
+    window.onload = function() {
+        if (performance.navigation.type == 1) {
+            window.location.href = "/";
+        }
+        // alert("Some of the functions may not work if you are using Chrome browser. Better switch to Firefox instead.");
+    }
+    var qtextarea = document.getElementById("question");
+    qtextarea.addEventListener("keydown", function(event) {
+      if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault(); // prevent default behavior of adding a new line
+        document.getElementById("ask-form").submit();
+      }
+    });
+    let ta_ans = "{{answer}}";
+    var i = 0,j = 0;
+    var fullTextDisplayed = false;
+    var textarea = document.getElementById("answer");
+    function typeLetter() {
+      if (i < ta_ans.length) {
+          textarea.value += ta_ans[i];
+          i++;
+          setTimeout(typeLetter, 30); 
+      } else if (i==(ta_ans.length-1)) {
+        // Enable translate and listen buttons when full text is displayed
+        fullTextDisplayed = true;
+      }
+      // if (i === ta_ans.length) {
+      //   // Enable translate and listen buttons when full text is displayed
+      //   document.getElementById("translate").style.pointerEvents = "auto";
+      //   document.getElementById("speak").style.pointerEvents = "auto";
+      // }
+    }
+    typeLetter();
+  </script>
+  <script>
+    // let a = document.getElementById("speak");
+    let speakButton = document.getElementById("speak");
+    let translateButton = document.getElementById("translate");
+    let resetButton = document.getElementById("reset");
+    speakButton.addEventListener("click",function(){
+      var text = $('#answer').val();
+      var msg = new SpeechSynthesisUtterance();
+      var voices = window.speechSynthesis.getVoices();
+      msg.lang = "Gu-IN";
+      msg.voice = voices[1];
+      msg.rate = 1;
+      msg.pitch = 1.5;
+      msg.text = text;
+      msg.volume = 100;
+      console.log(msg);
+      speechSynthesis.speak(msg);
+    });
+
+    if (navigator.userAgent.indexOf("Firefox") == -1) {
+      alert("Some functionalities may not work as expected. For better experience, please use Firefox instead.");
+    }
+    translateButton.addEventListener("click", translate);
+    function translate(){
+      let answer = document.getElementById("answer");
+      let speakButton = document.getElementById("speak");
+      let translateButton = document.getElementById("translate");
+      let resetButton = document.getElementById("reset");
+      let originalText = ta_ans;
+      let text = answer.value,
+        translateFrom = 'en-GB',
+        translateTo = 'gu-IN';
+      if (!text) return;
+      answer.value = "Translating...";
+      let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+      fetch(apiUrl)
+        .then((res) => res.json())
+        .then((data) => {
+          answer.value = data.responseData.translatedText;
+        });
+        // Change button text and function
+      translateButton.innerHTML = "Back to Original";
+      translateButton.removeEventListener("click", translate);
+      translateButton.addEventListener("click", reset);
+      speakButton.style.display = "none";
+    }
+    
+    
+    // translateButton.addEventListener("click", reset);
+    function reset(){
+      let answer = document.getElementById("answer");
+      let speakButton = document.getElementById("speak");
+      let translateButton = document.getElementById("translate");
+      answer.value = ta_ans;
+      translateButton.innerHTML = "Translate";
+      translateButton.removeEventListener("click", reset);
+      translateButton.addEventListener("click", translate);
+      speakButton.style.display = "block";
+    }
+    
+
+    function modfillQuestionTextarea() {
+      const modDiv = document.getElementById("mod");
+      const modText = modDiv.textContent;
+      const questionTextarea = document.getElementById("question");
+      questionTextarea.value = modText;
+    }
+    function htfipfillQuestionTextarea(){
+      const htfipDiv = document.getElementById("htfip");
+      const htfipText = htfipDiv.textContent;
+      const questionTextarea = document.getElementById("question");
+      questionTextarea.value = htfipText
+    }
+    function witmolfillQuestionTextarea(){
+      const witmolDiv = document.getElementById("witmol");
+      const witmolText = witmolDiv.textContent;
+      const questionTextarea = document.getElementById("question");
+      questionTextarea.value = witmolText
+    }
+    function hcibabpfillQuestionTextarea(){
+      const hcibabpDiv = document.getElementById("hcibabp");
+      const hcibabpText = hcibabpDiv.textContent;
+      const questionTextarea = document.getElementById("question");
+      questionTextarea.value = hcibabpText
+    }
+    function hcibabffillQuestionTextarea(){
+      const hcibabfDiv = document.getElementById("hcibabf");
+      const hcibabfText = hcibabfDiv.textContent;
+      const questionTextarea = document.getElementById("question");
+      questionTextarea.value = hcibabfText
+    }
+  </script>
+<!-- credits for favicon:  -->
+<!-- <a href="https://www.flaticon.com/free-icons/krishna" title="krishna icons">Krishna icons created by Freepik - Flaticon</a> -->
+</body>
+</html>
