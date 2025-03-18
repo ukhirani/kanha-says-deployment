@@ -13,10 +13,10 @@ from nltk.stem import WordNetLemmatizer
 
 # Load your data and models
 lemmatizer = WordNetLemmatizer()
-model = load_model("../model.h5")
-intents = json.loads(open("../gita_intents.json", encoding="utf-8").read())
-words = pickle.load(open("../texts.pkl", "rb"))
-classes = pickle.load(open("../labels.pkl", "rb"))
+model = load_model("model.h5")
+intents = json.loads(open("gita_intents.json", encoding="utf-8").read())
+words = pickle.load(open("texts.pkl", "rb"))
+classes = pickle.load(open("labels.pkl", "rb"))
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
